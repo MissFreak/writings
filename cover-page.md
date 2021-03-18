@@ -17,6 +17,8 @@ Knowledge of languages is the doorway to wisdom. – Roger Bacon
 
 <img align="center" width="120" height="120" alt="微信公众号：鸽婆打字机" src="https://i.loli.net/2021/03/04/dXVUZiRfW2o7wCy.jpg">
 
+[所有文章目录](https://github.com/MissFreak/writings/README.md)
+
 <!-- more -->
 
 <font size="3" color="grey">
