@@ -31,17 +31,17 @@ for filename in lst:
 		if match_title:
 			title = match_title.group().strip('"')
 		else:
-			title = 'Untitled'
+			title = filename
 
 		# convert into linked title
 		linked_title = '[{}](https://github.com/MissFreak/writings/blob/main/{})'.format(title, filename)
 
 		# get the categories
 		match_categories = re.search(r'categories:\n- (.*)\n- (.*)\n', s)
-		if match_categories:
+		try:
 			category_1 = match_categories.group(1)
 			category_2 = match_categories.group(2)
-		else:
+		except:
 			category_1 = '未分类'
 
 		# save into a list

@@ -20,7 +20,7 @@
 		- [information retrieval](https://github.com/MissFreak/writings/blob/main/information-retrieval.md)
 
 	- _心理语言学_
-		- [Untitled](https://github.com/MissFreak/writings/blob/main/README.md)
+		- [README.md](https://github.com/MissFreak/writings/blob/main/README.md)
 
 	- _文本处理_
 		- [网站开发需要的工具：前端和后端](https://github.com/MissFreak/writings/blob/main/web-dev-all.md)
