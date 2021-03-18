@@ -1,10 +1,12 @@
-# 目录
-这里是我的博客，目前共有31篇文章：
-## 人生规划
+---
+title: 所有文章目录
+---
+目前共有31篇文章：
+# 人生规划
 - _毕业论文_
 	- [毕业论文准备](https://github.com/MissFreak/writings/blob/main/graduation-thesis.md)
 
-## 代码
+# 代码
 - _文本处理_
 	- [用python处理json数据](https://github.com/MissFreak/writings/blob/main/json.md)
 
@@ -15,7 +17,7 @@
 - _编辑器_
 	- [从小白到起飞，一站解决Atom编辑器各种骚操作](https://github.com/MissFreak/writings/blob/main/atom.md)
 
-## 未分类
+# 未分类
 - [我的电脑文件目录管理](https://github.com/MissFreak/writings/blob/main/content.md)
 
 - [欢迎来到我的自然语言处理笔记！](https://github.com/MissFreak/writings/blob/main/cover-page.md)
@@ -26,7 +28,7 @@
 
 - [information retrieval](https://github.com/MissFreak/writings/blob/main/information-retrieval.md)
 
-- [README.md](https://github.com/MissFreak/writings/blob/main/README.md)
+- [所有文章目录](https://github.com/MissFreak/writings/blob/main/README.md)
 
 - [免费好用网站软件资源集锦：从学习、办公到娱乐](https://github.com/MissFreak/writings/blob/main/resources.md)
 
@@ -34,7 +36,7 @@
 
 - [好用的API集锦](https://github.com/MissFreak/writings/blob/main/wiki-api.md)
 
-## 网站开发
+# 网站开发
 - _django_
 	- [Django网站开发全过程实录-1](https://github.com/MissFreak/writings/blob/main/django-1.md)
 
@@ -51,7 +53,7 @@
 
 	- [flask干货总结](https://github.com/MissFreak/writings/blob/main/flask.md)
 
-## 自然语言处理
+# 自然语言处理
 - _依存分析_
 	- [《自然语言处理综论》第14章-依存分析（上）](https://github.com/MissFreak/writings/blob/main/dependency-parsing-2.md)
 
@@ -76,7 +78,7 @@
 - _语料库_
 	- [语料库资源大全](https://github.com/MissFreak/writings/blob/main/corpus.md)
 
-## 语言学
+# 语言学
 - _心理语言学_
 	- [心理语言学：资源和知识整理](https://github.com/MissFreak/writings/blob/main/psycho-linguistics.md)
 
