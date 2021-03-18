@@ -43,6 +43,7 @@ for filename in lst:
 			category_2 = match_categories.group(2)
 		except:
 			category_1 = '未分类'
+			category_2 = '未分类'
 
 		# save into a list
 		post_dict['title'] = linked_title
@@ -55,19 +56,24 @@ get_first_category = lambda dct: dct.get('category_1')
 group_1 = itertools.groupby(sorted(post_list, key=get_first_category), get_first_category)
 num_post = len(post_list)
 
-content = '# 目录\n共有{}篇文章：\n'.format(num_post)
+content = '# 目录\n这里是我的博客，目前共有{}篇文章：\n'.format(num_post)
 for k1,v1 in group_1:
 	# add the first category into content
-	content += ('- **'+k1+'**\n')
+	content += ('## '+k1+'\n')
 	# sort and group by the first category
 	get_second_category = lambda dct: dct.get('category_2')
 	group_2 = itertools.groupby(sorted(v1, key=get_second_category), get_second_category)
 	for k2,v2 in group_2:
 		# add the second category into content
-		content += ('\t- _'+k2+'_\n')
-		for i in v2:
-			# add the title into content
-			content += ('\t\t- '+i['title']+'\n\n')
+		if k2 != '未分类':
+			content += ('- _'+k2+'_\n')
+			for i in v2:
+				# add the title into content
+				content += ('\t- '+i['title']+'\n\n')
+		else:
+			for i in v2:
+				# add the title into content
+				content += ('- '+i['title']+'\n\n')
 
 # write the content into md file
 with open(os.path.join(file_path, 'README.md'), 'w', encoding='utf-8') as f:
